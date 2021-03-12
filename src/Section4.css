@@ -1,158 +1,184 @@
-.social-icons-box{
-    
-    color:white;
-    height:80px;
-    display:flex;
-    flex-direction:row;
-    align-items: center;
-    margin:0px auto;
-    max-width:900px;
-    justify-content:space-between;
-    padding:0px 20px;
-    
+.social-icons-box {
+  color: white;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0px auto;
+  max-width: 900px;
+  justify-content: space-between;
+  padding: 0px 20px;
 }
 
-.footer{
-    border:1px solid black;
-    margin-top:5px;
+.footer {
+  border: 1px solid black;
+  margin-top: 5px;
 }
-.icons{
-    background-color: rgb(53, 119, 218);
+.icons {
+  background-color: rgb(53, 119, 218);
 }
-.media-icons{
-    
-    font-size: 14px;
+.media-icons {
+  font-size: 14px;
 }
-.media-icons i{
-    margin-right:10px;
-    font-size:20px;
+.media-icons a {
+  text-decoration: none;
+  color: white;
+  transition-duration: 0.5s;
 }
-.pictures-box{
-    border:1px solid black;
-    background-color: white;
-    display: flex;
-    flex-direction: row;
-    width:100%;
-
+.media-icons a:hover {
+  cursor: pointer;
+  border-bottom: 3px solid white;
+  border-bottom-style: dotted;
+  padding-bottom: 10px;
+  font-size: 18px;
 }
-.pictures-box img{
-    height:300px;
-    width:303px;   
+.media-icons i {
+  margin-right: 10px;
+  font-size: 20px;
 }
-.pictures-box img:hover{
-    cursor:pointer;
-    animation: shake 0.5s;
+.pictures-box {
+  border: 1px solid black;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.pictures-box img {
+  height: 300px;
+  width: 303px;
+}
+.pictures-box img:hover {
+  cursor: pointer;
+  animation: shake 0.5s;
   animation-iteration-count: infinite;
-   
 }
 @keyframes shake {
-    0% { transform: translate(1px, 1px) rotate(0deg); }
-    10% { transform: translate(-1px, -2px) rotate(-1deg); }
-    20% { transform: translate(-3px, 0px) rotate(1deg); }
-    30% { transform: translate(3px, 2px) rotate(0deg); }
-    40% { transform: translate(1px, -1px) rotate(1deg); }
-    50% { transform: translate(-1px, 2px) rotate(-1deg); }
-    60% { transform: translate(-3px, 1px) rotate(0deg); }
-    70% { transform: translate(3px, 1px) rotate(-1deg); }
-    80% { transform: translate(-1px, -1px) rotate(1deg); }
-    90% { transform: translate(1px, 2px) rotate(0deg); }
-    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
   }
-  .last-box{
-      height:350px;
-      border:1px solid black;
-      background-color: rgba(78, 74, 74, 0.795);
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
   }
-  .intro-box{
-      border:1px solid white;
-      width:940px;
-      margin:50px auto;
-      display:flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: space-between;
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
   }
-  .about-me{
-      border:1px solid black;
-      width:60%;
-      display:flex;
-      flex-direction: row;
-      align-items: center;
-      
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
   }
-  .about-me img{
-      height:140px;
-      width:140px;
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
   }
-  #about-text{
-      border:1px solid white;
-      width:100%;
-      margin-left:30px;
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
   }
-  #about-text h3{
-      color:white;
-      font-weight:400;
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
   }
-  #about-text p{
-      font-size:14px;
-      letter-spacing: 1px;
-      word-spacing: 3px;
-      line-height:1.5;
-      color:white;
-      margin-top:25px;
-      font-weight:200;
-      
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
   }
-  .contact{
-    border:1px solid black;
-    width:30%;
-    padding-left:15px;
-
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
   }
-  .contact h3{
-       color:white;
-       font-weight:400;
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
   }
-  #email{
-      margin-top:10px;
-      font-size:14px;
-      color: white;
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
   }
-  .contact input{
-      font-size:12px;
-      width:100%;
-      height:30px;
-      padding:17px 20px;
-      margin-top:10px;
-      background-color:transparent;
-      border:1px solid white;
-  }
-  ::placeholder {
-    color: rgb(197, 191, 191);
-    opacity: 1; 
-  }
-  .contact input:hover{
-    border:3px solid white; 
-  }
-  button{
-    width:100%;
-    height:35px;
-    margin-top:10px;
-   font-size:14px;
-   background-color:rgb(53, 119, 218);
-   border:none;
-   color:white;
-  }
-  .copyright{
-      margin-top:90px;
-      border:1px solid white;
-  }
-  .copyright p{
-      text-align: center;
-      font-size:12px;
-      color:white;
-  }
-  input[type=email]:focus{
-      outline: none;
-      color:white;
-  }
+}
+.last-box {
+  height: 350px;
+  border: 1px solid black;
+  background-color: rgba(78, 74, 74, 0.795);
+}
+.intro-box {
+  border: 1px solid white;
+  width: 940px;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.about-me {
+  border: 1px solid black;
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.about-me img {
+  height: 140px;
+  width: 140px;
+}
+#about-text {
+  border: 1px solid white;
+  width: 100%;
+  margin-left: 30px;
+}
+#about-text h3 {
+  color: white;
+  font-weight: 400;
+}
+#about-text p {
+  font-size: 14px;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+  line-height: 1.5;
+  color: white;
+  margin-top: 25px;
+  font-weight: 200;
+}
+.contact {
+  border: 1px solid black;
+  width: 30%;
+  padding-left: 15px;
+}
+.contact h3 {
+  color: white;
+  font-weight: 400;
+}
+#email {
+  margin-top: 10px;
+  font-size: 14px;
+  color: white;
+}
+.contact input {
+  font-size: 12px;
+  width: 100%;
+  height: 30px;
+  padding: 17px 20px;
+  margin-top: 10px;
+  background-color: transparent;
+  border: 1px solid white;
+}
+::placeholder {
+  color: rgb(197, 191, 191);
+  opacity: 1;
+}
+.contact input:hover {
+  border: 3px solid white;
+}
+button {
+  width: 100%;
+  height: 35px;
+  margin-top: 10px;
+  font-size: 14px;
+  background-color: rgb(53, 119, 218);
+  border: none;
+  color: white;
+}
+.copyright {
+  margin-top: 90px;
+  border: 1px solid white;
+}
+.copyright p {
+  text-align: center;
+  font-size: 12px;
+  color: white;
+}
+input[type="email"]:focus {
+  outline: none;
+  color: white;
+}

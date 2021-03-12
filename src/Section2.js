@@ -1,8 +1,9 @@
-import React from 'react';
 import'../src/Section2.css';
+
 import Photo1 from '../src/images/photo1.jpg';
 import Photo2 from '../src/images/photo2.jpg';
 import Photo3 from '../src/images/photo3.jpg';
+import React from 'react';
 
 function Section2(){
     return(

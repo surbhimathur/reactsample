@@ -1,62 +1,69 @@
-
-
-header{
-    max-width: 100%;
-    height:80px;
-    border:1px solid black;
-    display:flex;
-    flex-direction: row;
-    background-color:rgba(211, 203, 203, 0.671);
+.navbar {
+  max-width: 100%;
+  height: 80px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(223, 219, 219);
+  position: sticky;
+  top: 0;
+  z-index: 999;
 }
-.leftside{
-flex:50%;
-border:1px solid red;
-display:flex;
-flex-direction: row;
-justify-content:center;
-align-items: center;
-
+.navbar.active {
+  border: 2px solid black;
 }
-.rightside{
-  flex:50%;
-  border:1px solid green;
-  display:flex;
+.leftside {
+  flex: 50%;
+  border: 1px solid red;
+}
+.rightside {
+  flex: 50%;
+  border: 3px solid red;
+}
+
+.nav-bar-container {
+  border: 1px solid yellow;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+}
+
+.nav-bar-container a {
+  text-decoration: none;
+  color: rgb(82, 80, 80);
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 60px;
+  letter-spacing: 1px;
+  padding-bottom: 5px;
+}
+.nav-bar-container a:first-child {
+  margin-left: 0px;
+}
+.nav-bar-container a:hover {
+  color: rgb(57, 57, 194);
+  cursor: pointer;
+  border-bottom-style: double;
+}
+.social-icons {
+  border: 1px solid black;
+  display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  margin: 20px auto;
+}
+.social-icons img {
+  height: 23px;
+  width: 23px;
 }
 
-.navigation-bar{
-    border:1px solid yellow;
-    
+.social-icons a {
+  margin-left: 30px;
 }
-
-.navigation-bar a{
-    
-    text-decoration: none;
-    color:rgb(82, 80, 80);
-    font-size: 14px;
-    margin-left:30px;
-
-}
-.navigation-bar  a:hover{
-    color:rgb(36, 30, 112);
-    cursor: pointer;
-}
-.social-icons{
-    border:1px solid black;
-    
-}
-.social-icons img{
-    height:22px;
-    width:22px;
-
-}
-
-.social-icons a{
-    margin-left:30px;
-}
-.social-icons img:hover{
-    height:25px;
-    width:25px;
+.social-icons img:hover {
+  height: 28px;
+  width: 28px;
 }
