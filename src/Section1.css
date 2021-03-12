@@ -1,0 +1,26 @@
+.travel{
+    border:3px solid green;
+    height:500px;
+   background:url(images/travel.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+
+}
+.travel-text{
+    border:2px solid white;
+    text-align: center;
+    margin-top:110px;
+    color:white;
+}
+
+.travel-text p{
+    font-size:16px;
+    word-spacing: 3px;
+}
+.travel-text h1{
+    font-size:60px;
+    font-weight:bold;
+    padding-bottom:10px;
+    
+}

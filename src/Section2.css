@@ -1,0 +1,115 @@
+.features{
+max-width:1000px;
+border:1px solid black;
+margin:40px auto;
+}
+
+.features-text{
+    padding:15px 0px;
+    text-align: center;
+    word-spacing: 3px;
+    font-size:14px;
+    color:grey;
+    font-weight:300;
+    line-height: 1.8;
+}
+.features-images{
+    display:flex;
+    flex-direction: row;
+    border:1px solid black;
+   align-items: center;
+   justify-content: center;
+   margin-top:15px;
+   padding-top:10px;
+   position:relative;
+
+}
+.features-images img{
+    width:100%;
+    height:250px;
+    padding-left:20px;
+}
+.features-images img:first-child{
+    padding-left:0px;
+}
+.features-images .travel-btn {
+    background-color: white;
+    font-size:18px;
+    position:absolute;
+    left:8%;
+    width:160px;
+    height:50px;
+    border:none;
+    color:rgb(81, 153, 247);
+    text-align: center;
+    
+ }
+ .features-images .travel-btn:hover, .features-images .eat-btn:hover,.features-images .relax-btn:hover{
+     background-color:rgb(81, 153, 247); 
+     color:white;
+     transition: 0.3s;
+     cursor:pointer;
+ }
+
+ .features-images .eat-btn {
+    background-color:white;
+    height:50px;
+    color:rgb(81, 153, 247);
+    position:absolute;
+    left:42%;
+    width:160px;
+    font-size:18px;
+    border:none;
+ }
+ .features-images .relax-btn {
+    background-color:white;
+    height:50px;
+    color:rgb(81, 153, 247);
+    font-size:18px;
+    position:absolute;
+    right:8%;
+    width:160px;
+    border:none;
+ }
+
+ .banner{
+     border:1px solid black;
+     margin:70px 0px;
+     display:flex;
+     flex-direction:row;
+     align-items: center;
+     justify-content: center;
+     background-color:rgba(211, 203, 203, 0.199);
+
+ }
+ .banner  div{
+     border:1px solid black;
+     width:auto;
+     font-size:18px;
+     padding:45px;
+    
+ }
+ #boldtravel{
+     font-size: 25px;
+     font-weight:bolder;
+ }
+ #boldtour{
+     font-weight:bold;
+ }
+ .airplane{
+     text-align: center;
+ }
+ #planet{
+     font-weight: lighter;
+ }
+ #world{
+     font-weight:bolder;
+     letter-spacing: 5px;
+ }
+ .cloud{
+     text-align: right;
+ }
+ #sky{
+     font-weight:700;
+     font-size:20px;
+ }
