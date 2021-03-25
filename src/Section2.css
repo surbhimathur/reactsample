@@ -9,9 +9,10 @@
   text-align: center;
   word-spacing: 3px;
   font-size: 14px;
-  color: grey;
+  color: black;
   font-weight: 300;
   line-height: 1.8;
+  text-transform: uppercase;
 }
 .features-images {
   display: flex;
@@ -85,7 +86,7 @@
   border: 1px solid black;
   width: auto;
   font-size: 18px;
-  padding: 45px;
+  padding: 3%;
 }
 #boldtravel {
   font-size: 25px;
@@ -110,4 +111,51 @@
 #sky {
   font-weight: 700;
   font-size: 20px;
+}
+
+@media (min-device-width: 320px) {
+  .features {
+    margin: 25px auto;
+  }
+  .features-text {
+    font-size: 12px;
+    padding: 10px 0px;
+  }
+  .features-images {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+  }
+  .features-images img {
+    padding-left: 0px;
+    margin-bottom: 10px;
+    padding-top: 0px;
+  }
+  .features-images .travel-btn {
+    font-size: 16px;
+    bottom: 79%;
+    left: 25%;
+  }
+  .features-images .eat-btn {
+    left: 24%;
+    font-size: 16px;
+    bottom: 46%;
+  }
+  .features-images .relax-btn {
+    font-size: 16px;
+    right: 25%;
+    top: 79%;
+  }
+  .banner {
+    margin: 50px 0px;
+    flex-direction: column;
+  }
+  .banner div {
+    width: 100%;
+    text-align: center;
+    padding: 5%;
+  }
+  .cloud {
+    text-align: center;
+  }
 }

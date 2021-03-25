@@ -36,7 +36,7 @@ function Section4 (){
                          <div><img src={Profile} alt="profile picture"></img></div>
                          <div id="about-text">
                              <h3>About Me</h3>
-                             <p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font.</p>
+                             <p>I am fun loving and ambitious female who set up this blog as a place to document all of amazing travel experiences in witty, informal and honest blog posts. I have visited luxurious hotels and destinations around the world </p>
                          </div> 
                        </div>
 
@@ -44,7 +44,7 @@ function Section4 (){
                          <h3>Join My Mailing List</h3>
                          <p id="email">Email *</p>
                          <input type="email" placeholder="Enter your email here"></input>
-                          <button type="button">Subscribe Now</button>
+                          <button type="button" class="subscribe">Subscribe Now</button>
 
                        </div>
                    </div>

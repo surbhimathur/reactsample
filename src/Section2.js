@@ -10,8 +10,8 @@ function Section2(){
         <section>
             <div className='features'>
              <div className='features-text'>
-             <p>I'm a paragraph. Click here to add your own text and edit me. It’s easy.<br></br>
-                Just click “Edit Text” or double click me to add your own content and make changes to the font.</p>
+             <p>The journey of a thousand miles begins with a single step.<br></br>
+             Collect Moments, Not Things.</p>
              </div>
              
              <div className='features-images'>

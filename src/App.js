@@ -1,4 +1,5 @@
 import './App.css';
+import '../src/Queries.css';
 
 import {Route, Switch} from 'react-router-dom';
 

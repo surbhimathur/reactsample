@@ -1,6 +1,4 @@
 .navbar {
-  max-width: 100%;
-  height: 80px;
   border: 1px solid black;
   display: flex;
   flex-direction: row;
@@ -8,36 +6,51 @@
   position: sticky;
   top: 0;
   z-index: 999;
+  height: 80px;
 }
-.navbar.active {
+.navbar .active {
   border: 2px solid black;
 }
 .leftside {
-  flex: 50%;
-  border: 1px solid red;
+  width: 50%;
+  border: 1px solid green;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 .rightside {
-  flex: 50%;
-  border: 3px solid red;
+  width: 50%;
+  border: 1px solid red;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 .nav-bar-container {
   border: 1px solid yellow;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  height: 80px;
+  width: 100%;
+  max-height: 80px;
+  margin: 0px auto;
 }
-
+.hamburger {
+  display: none;
+}
+.navbar .leftside #hidden {
+  display: flex;
+}
 .nav-bar-container a {
   text-decoration: none;
   color: rgb(82, 80, 80);
   font-size: 14px;
   font-weight: bold;
-  margin-left: 60px;
   letter-spacing: 1px;
   padding-bottom: 5px;
+  border: 1px solid black;
 }
 .nav-bar-container a:first-child {
   margin-left: 0px;
@@ -49,21 +62,56 @@
 }
 .social-icons {
   border: 1px solid black;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  margin: 20px auto;
+}
+.social-icons a {
+  margin-left: 25px;
+}
+.social-icons a:first-child {
+  margin-left: 0px;
 }
 .social-icons img {
   height: 23px;
   width: 23px;
 }
 
-.social-icons a {
-  margin-left: 30px;
-}
 .social-icons img:hover {
   height: 28px;
   width: 28px;
+}
+
+@media (min-width: 320px) {
+  .rightside {
+    width: 100%;
+  }
+}
+
+@media (max-width: 617px) {
+  .hamburger {
+    display: block;
+    margin-left: 15px;
+    cursor: pointer;
+  }
+
+  .nav-bar-container {
+    display: none;
+  }
+
+  .navbar .leftside #hidden {
+    position: absolute;
+    left: 0px;
+    top: 80px;
+    width: 100%;
+    height: 300px;
+    max-height: 300px;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+  }
+  .navbar .leftside #hidden a {
+    font-size: 18px;
+    color: white;
+    margin: 10px 0px;
+  }
 }

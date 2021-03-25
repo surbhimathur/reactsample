@@ -13,6 +13,7 @@
 .footer {
   border: 1px solid black;
   margin-top: 5px;
+  width: 100%;
 }
 .icons {
   background-color: rgb(53, 119, 218);
@@ -42,10 +43,11 @@
   display: flex;
   flex-direction: row;
   width: 100%;
+  overflow: hidden;
 }
 .pictures-box img {
   height: 300px;
-  width: 303px;
+  width: 25%;
 }
 .pictures-box img:hover {
   cursor: pointer;
@@ -88,8 +90,7 @@
   }
 }
 .last-box {
-  height: 350px;
-  border: 1px solid black;
+  border: 1px solid yellow;
   background-color: rgba(78, 74, 74, 0.795);
 }
 .intro-box {
@@ -108,6 +109,7 @@
   flex-direction: row;
   align-items: center;
 }
+
 .about-me img {
   height: 140px;
   width: 140px;
@@ -160,7 +162,7 @@
 .contact input:hover {
   border: 3px solid white;
 }
-button {
+.subscribe {
   width: 100%;
   height: 35px;
   margin-top: 10px;
@@ -181,4 +183,50 @@ button {
 input[type="email"]:focus {
   outline: none;
   color: white;
+}
+
+@media (min-device-width: 320px) {
+  .pictures-box img {
+    height: auto;
+    width: 100%;
+  }
+  .footer {
+    margin-top: 20px;
+  }
+  .media-icons {
+    font-size: 11px;
+  }
+  .media-icons i {
+    margin-right: auto;
+    font-size: 14px;
+  }
+  .social-icons-box {
+    padding: 0px auto;
+  }
+  .intro-box {
+    flex-direction: column;
+    width: 100%;
+    margin: 50px auto;
+  }
+  .about-me {
+    width: 100%;
+    padding: 0px 10px;
+  }
+  .about-me img {
+    width: 100%;
+    height: 100%;
+  }
+  #about-text {
+    margin-left: 10px;
+  }
+  #about-text p {
+    font-size: 13px;
+    margin-top: 15px;
+  }
+  .contact {
+    width: 100%;
+    padding-left: 0px;
+    margin: 25px 0px;
+    padding: 0px 10px;
+  }
 }
