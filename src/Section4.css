@@ -47,7 +47,7 @@
 }
 .pictures-box img {
   height: 300px;
-  width: 25%;
+  width: 20%;
 }
 .pictures-box img:hover {
   cursor: pointer;
@@ -188,7 +188,6 @@ input[type="email"]:focus {
 @media (min-device-width: 320px) {
   .pictures-box img {
     height: auto;
-    width: 100%;
   }
   .footer {
     margin-top: 20px;

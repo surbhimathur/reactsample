@@ -154,8 +154,15 @@
     width: 100%;
     text-align: center;
     padding: 5%;
+    font-size: 16px;
   }
   .cloud {
     text-align: center;
+  }
+  #sky {
+    font-size: 18px;
+  }
+  #boldtravel {
+    font-size: 22px;
   }
 }

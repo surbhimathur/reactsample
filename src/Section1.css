@@ -26,6 +26,10 @@
 }
 
 @media (min-device-width: 320px) {
+  .travel-text {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
   .travel-text h1 {
     font-size: 35px;
   }
