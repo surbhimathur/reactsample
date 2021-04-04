@@ -29,6 +29,7 @@
   display: inline-block;
   font-weight: bold;
   vertical-align: middle;
+  height: 50px;
 }
 .user1 img {
   height: 45px;
@@ -41,7 +42,7 @@
   margin-left: 47px;
   font-size: 12px;
   font-weight: 200;
-  margin-top: -18px;
+  margin-top: -16px;
   color: grey;
 }
 #post-title {
@@ -67,6 +68,7 @@
   font-size: 13px;
   flex-shrink: 1;
   width: 100%;
+  padding: 0px 5px;
 }
 #eye {
   margin-right: 20px;
@@ -96,7 +98,7 @@
 }
 .beach {
   border: 1px solid black;
-  padding-top: 40px;
+  padding-top: 30px;
 }
 .beach img {
   width: 100%;
@@ -133,5 +135,24 @@
   }
   .beach img {
     height: auto;
+  }
+}
+
+@media (min-device-width: 700px) {
+  .post-detail {
+    margin: 25px auto;
+  }
+  #post-title {
+    font-size: 18px;
+  }
+  #post-text {
+    font-size: 15px;
+    margin-bottom: 25px;
+  }
+  .reaction-box {
+    margin-top: 10px;
+  }
+  .beach {
+    padding-top: 40px;
   }
 }

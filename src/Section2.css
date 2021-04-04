@@ -27,6 +27,8 @@
 .features-images img {
   width: 100%;
   height: 250px;
+}
+.features-images div {
   padding-left: 20px;
 }
 .features-images img:first-child {
@@ -126,7 +128,7 @@
     flex-direction: column;
     margin-top: 5px;
   }
-  .features-images img {
+  .features-images div {
     padding-left: 0px;
     margin-bottom: 10px;
     padding-top: 0px;
@@ -164,5 +166,220 @@
   }
   #boldtravel {
     font-size: 22px;
+  }
+}
+
+@media (min-device-width: 350px) {
+  .features-images .relax-btn {
+    right: 28%;
+  }
+  .features-images .travel-btn {
+    left: 27%;
+  }
+  .features-images .eat-btn {
+    left: 27%;
+  }
+}
+
+@media (min-device-width: 400px) {
+  .features-images .relax-btn {
+    right: 30%;
+  }
+  .features-images .travel-btn {
+    left: 29%;
+  }
+  .features-images .eat-btn {
+    left: 29%;
+  }
+}
+
+@media (min-device-width: 430px) {
+  .features-images .relax-btn {
+    right: 32%;
+  }
+  .features-images .travel-btn {
+    left: 31%;
+  }
+  .features-images .eat-btn {
+    left: 31%;
+  }
+}
+@media (min-device-width: 478px) {
+  .features-images .relax-btn {
+    right: 33%;
+  }
+  .features-images .travel-btn {
+    left: 32%;
+  }
+  .features-images .eat-btn {
+    left: 32%;
+  }
+}
+@media (min-device-width: 478px) {
+  .features-images .relax-btn {
+    right: 33%;
+  }
+  .features-images .travel-btn {
+    left: 32%;
+  }
+  .features-images .eat-btn {
+    left: 32%;
+  }
+}
+@media (min-device-width: 500px) {
+  .features-images .relax-btn {
+    right: 34%;
+  }
+  .features-images .travel-btn {
+    left: 33%;
+  }
+  .features-images .eat-btn {
+    left: 33%;
+  }
+}
+@media (min-device-width: 550px) {
+  .features-images .relax-btn {
+    right: 35%;
+  }
+  .features-images .travel-btn {
+    left: 35%;
+  }
+  .features-images .eat-btn {
+    left: 35%;
+  }
+}
+@media (min-device-width: 600px) {
+  .features-images {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+  }
+  .features {
+    margin: 30px auto;
+  }
+  .features-images img {
+    height: 200px;
+  }
+  .features-text {
+    padding: 15px 0px;
+    font-size: 14px;
+  }
+  .features-images div {
+    padding-left: 10px;
+  }
+  .features-images div:first-child {
+    padding-left: 0px;
+  }
+  .features-images .travel-btn {
+    left: 5%;
+    top: 40%;
+    width: 140px;
+  }
+
+  .features-images .eat-btn {
+    left: 38%;
+    top: 40%;
+    width: 140px;
+  }
+  .features-images .relax-btn {
+    width: 140px;
+    right: 5%;
+    top: 40%;
+  }
+  .banner {
+    margin: 40px 0px;
+  }
+}
+
+@media (min-device-width: 700px) {
+  .features {
+    margin: 40px auto;
+  }
+  .features-images {
+    margin-top: 15px;
+    padding-top: 10px;
+  }
+  .features-images .travel-btn {
+    left: 6%;
+  }
+
+  .features-images .eat-btn {
+    left: 40%;
+  }
+  .features-images .relax-btn {
+    right: 6%;
+  }
+
+  .banner {
+    display: flex;
+    flex-direction: row;
+    margin: 70px 0px;
+  }
+  .banner div {
+    width: 100%;
+    padding: 3%;
+  }
+}
+
+@media (min-device-width: 800px) {
+  .features-images img {
+    height: 220px;
+  }
+  .features-images .travel-btn {
+    left: 7%;
+  }
+
+  .features-images .eat-btn {
+    left: 41%;
+  }
+  .features-images .relax-btn {
+    right: 7%;
+  }
+  .banner div {
+    font-size: 18px;
+  }
+  #boldtravel {
+    font-size: 25px;
+  }
+  #sky {
+    font-size: 20px;
+  }
+}
+@media (min-device-width: 856px) {
+  .features-images .travel-btn {
+    left: 8%;
+  }
+
+  .features-images .eat-btn {
+    left: 42%;
+  }
+  .features-images .relax-btn {
+    right: 8%;
+  }
+}
+@media (min-device-width: 900px) {
+  .features-images img {
+    height: 250px;
+  }
+}
+@media (min-device-width: 1000px) {
+  .features-images .travel-btn {
+    width: 160px;
+    height: 50px;
+    font-size: 18px;
+  }
+
+  .features-images .eat-btn {
+    width: 160px;
+    height: 50px;
+    font-size: 18px;
+  }
+  .features-images .relax-btn {
+    width: 160px;
+    height: 50px;
+    font-size: 18px;
+  }
+  .features-images div {
+    padding-left: 20px;
   }
 }
