@@ -30,11 +30,11 @@ function Navbar (){
         <nav className={navbar ? "navbar active" : "navbar"}>
         <div className="leftside">
         <div className="nav-bar-container" id={showLinks ? "hidden" : ""}>
-           <Link to="/" onClick={() => setShowLinks(!showLinks)}>Home</Link>
-           <Link to="/about" onClick={() => setShowLinks(!showLinks)}>About</Link>
-           <Link to="/relax" onClick={() => setShowLinks(!showLinks)}>Relax</Link>
-           <Link to="/eat" onClick={() => setShowLinks(!showLinks)}>Eat</Link>
-           <Link to="/travel" onClick={() => setShowLinks(!showLinks)}>Travel</Link>
+           <Link to="/reactsample/" onClick={() => setShowLinks(!showLinks)}>Home</Link>
+           <Link to="/reactsample/about" onClick={() => setShowLinks(!showLinks)}>About</Link>
+           <Link to="/reactsample/relax" onClick={() => setShowLinks(!showLinks)}>Relax</Link>
+           <Link to="/reactsample/eat" onClick={() => setShowLinks(!showLinks)}>Eat</Link>
+           <Link to="/reactsample/travel" onClick={() => setShowLinks(!showLinks)}>Travel</Link>
         </div>
         <button class="hamburger" onClick={() => setShowLinks(!showLinks)}>
         <ReorderIcon /></button>
