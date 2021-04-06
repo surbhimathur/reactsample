@@ -11,7 +11,6 @@
 }
 
 .footer {
-  border: 1px solid black;
   margin-top: 5px;
   width: 100%;
 }
@@ -40,7 +39,6 @@
   font-size: 20px;
 }
 .pictures-box {
-  border: 1px solid black;
   background-color: white;
   display: flex;
   flex-direction: row;
@@ -92,24 +90,21 @@
   }
 }
 .last-box {
-  border: 1px solid yellow;
   background-color: rgba(78, 74, 74, 0.795);
 }
 .intro-box {
-  border: 1px solid white;
   width: 940px;
-  margin: 50px auto;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
 }
 .about-me {
-  border: 1px solid green;
   width: 60%;
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin: 50px auto;
 }
 
 .about-me img {
@@ -117,7 +112,6 @@
   width: 140px;
 }
 #about-text {
-  border: 1px solid white;
   width: 100%;
   margin-left: 30px;
 }
@@ -135,7 +129,6 @@
   font-weight: 200;
 }
 .contact {
-  border: 1px solid black;
   width: 30%;
   padding-left: 15px;
 }
@@ -176,7 +169,7 @@
 }
 .copyright {
   margin-top: 90px;
-  border: 1px solid white;
+  padding-bottom: 20px;
 }
 .copyright p {
   text-align: center;
@@ -200,16 +193,15 @@ input[type="email"]:focus {
     margin-top: 20px;
   }
   .media-icons i {
-    margin-right: auto;
+    margin-right: 2px;
     font-size: 14px;
   }
   .social-icons-box {
-    padding: 0px auto;
+    padding: 0px 10px;
   }
   .intro-box {
     flex-direction: column;
     width: 100%;
-    margin: 50px auto;
   }
   .about-me {
     width: 100%;
@@ -229,7 +221,6 @@ input[type="email"]:focus {
   .contact {
     width: 100%;
     padding-left: 0px;
-    margin: 30px 0px;
     padding: 0px 10px;
   }
 }
@@ -239,6 +230,25 @@ input[type="email"]:focus {
   }
   .media-icons i {
     font-size: 16px;
+  }
+  .social-icons-box {
+    padding: 0px 20px;
+  }
+  .contact input {
+    width: auto;
+    margin-right: 20px;
+  }
+  .subscribe {
+    width: 200px;
+  }
+}
+@media (min-device-width: 500px) {
+  .media-icons {
+    font-size: 13px;
+  }
+  .media-icons i {
+    font-size: 18px;
+    margin-right: 5px;
   }
 }
 
@@ -284,10 +294,17 @@ input[type="email"]:focus {
   #email {
     margin-top: 27px;
   }
+  .contact input {
+    width: 100%;
+  }
+  .subscribe {
+    width: 100%;
+  }
 }
 @media (min-device-width: 800px) {
   .contact {
     height: 200px;
+    width: 30%;
   }
 }
 @media (min-device-width: 900px) {
@@ -306,7 +323,6 @@ input[type="email"]:focus {
 @media (min-device-width: 1200px) {
   .contact {
     height: 180px;
-    width: 30%;
   }
   .intro-box {
     width: 940px;

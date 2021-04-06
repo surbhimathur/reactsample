@@ -30,7 +30,8 @@ function Section2() {
                 <div><p id="world">WORLD<br></br>TRAVEL</p></div>
                 <div><p class="cloud"><i class='fas fa-cloud sky'></i></p>
                     <p id="sky">skycloud</p></div>
-            </div>
+                </div>
+            
         </section>
     )
 

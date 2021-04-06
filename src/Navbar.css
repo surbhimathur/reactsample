@@ -1,5 +1,4 @@
 .navbar {
-  border: 1px solid black;
   display: flex;
   flex-direction: row;
   background-color: rgb(223, 219, 219);
@@ -13,14 +12,12 @@
 }
 .leftside {
   width: 50%;
-  border: 1px solid green;
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 .rightside {
   width: 50%;
-  border: 1px solid red;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -28,7 +25,6 @@
 }
 
 .nav-bar-container {
-  border: 1px solid yellow;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -50,7 +46,6 @@
   font-weight: bold;
   letter-spacing: 1px;
   padding-bottom: 5px;
-  border: 1px solid black;
 }
 .nav-bar-container a:first-child {
   margin-left: 0px;
@@ -60,9 +55,7 @@
   cursor: pointer;
   border-bottom-style: double;
 }
-.social-icons {
-  border: 1px solid black;
-}
+
 .social-icons a {
   margin-left: 25px;
 }
