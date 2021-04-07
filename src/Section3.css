@@ -59,7 +59,7 @@
   flex-direction: row;
   align-items: center;
   margin-top: 10px;
-  font-size: 13px;
+  font-size: 14px;
   flex-shrink: 1;
   width: 100%;
   padding: 0px 5px;
@@ -68,8 +68,8 @@
   margin-right: 20px;
   color: grey;
 }
-#eye i {
-  font-size: 14px;
+#eye .eyeicon {
+  font-size: 16px;
   margin-right: 4px;
   color: rgba(0, 0, 0, 0.699);
   font-weight: 100;
@@ -77,15 +77,15 @@
 #comment {
   color: grey;
 }
-#comment i {
-  font-size: 14px;
+#comment .commenticon {
+  font-size: 16px;
   margin-right: 4px;
   color: rgba(0, 0, 0, 0.699);
   font-weight: 100;
 }
 #heart {
   align-self: flex-end;
-  font-size: 14px;
+  font-size: 16px;
   color: red;
   margin-left: 87%;
 }

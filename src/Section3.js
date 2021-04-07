@@ -1,5 +1,7 @@
 import'../src/Section3.css';
 
+import { MdChatBubbleOutline, MdFavoriteBorder, MdRemoveRedEye } from "react-icons/md";
+
 import Beach from '../src/images/beach.jpg';
 import React from 'react';
 import Spa from '../src/images/spa.jpg';
@@ -21,9 +23,9 @@ function Section3(){
                   </div>  
                
                   <div className="reaction-box">
-                      <div id="eye"><p><i class='far fa-eye'></i>  0</p></div>
-                      <div id="comment"><p><i class='far fa-comment-alt'></i> 0</p></div>
-                     <div id="heart"> <p><i class='far fa-heart'></i></p></div> 
+                      <div id="eye"><p><MdRemoveRedEye className="eyeicon"/>  0</p></div>
+                      <div id="comment"><p><MdChatBubbleOutline className="commenticon"/> 0</p></div>
+                     <div id="heart"> <p><MdFavoriteBorder/></p></div> 
                   </div>
                  </div>
              
@@ -39,9 +41,9 @@ function Section3(){
                   </div>  
                
                   <div className="reaction-box">
-                      <div id="eye"><p><i class='far fa-eye'></i> 6</p></div>
-                      <div id="comment"><p><i class='far fa-comment-alt'></i> 0</p></div>
-                     <div id="heart"> <p><i class='far fa-heart'></i></p></div> 
+                      <div id="eye"><p><MdRemoveRedEye className="eyeicon"/> 6</p></div>
+                      <div id="comment"><p><MdChatBubbleOutline className="commenticon"/> 0</p></div>
+                     <div id="heart"> <p><MdFavoriteBorder/></p></div> 
                   </div>
                  </div>
 
