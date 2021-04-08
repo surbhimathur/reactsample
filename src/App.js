@@ -17,12 +17,12 @@ class App extends React.Component{
        <div className="homepage">
        <Navbar />
        <Switch>
-            <Route exact path="/">
+            <Route exact path="/reactsample">
             <Home></Home></Route>
-            <Route exact path="/about"><About/></Route>
-            <Route exact path="/eat"><Eat></Eat></Route>
-            <Route exact path="/relax"><Relax></Relax></Route>
-            <Route exact path="/travel"><Travel></Travel></Route>
+            <Route exact path="/reactsample/about"><About/></Route>
+            <Route exact path="/reactsample/eat"><Eat></Eat></Route>
+            <Route exact path="/reactsample/relax"><Relax></Relax></Route>
+            <Route exact path="/reactsample/travel"><Travel></Travel></Route>
         </Switch>
       
        </div>

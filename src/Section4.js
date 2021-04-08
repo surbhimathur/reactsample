@@ -1,5 +1,7 @@
 import'../src/Section4.css';
 
+import { FaFacebook, FaInstagram, FaPinterest, FaTwitter } from "react-icons/fa";
+
 import Footer1 from '../src/images/footer1.jpg';
 import Footer2 from '../src/images/footer2.jpg';
 import Footer3 from '../src/images/footer3.jpg';
@@ -14,10 +16,10 @@ function Section4 (){
         <div className="footer">
              <div className="icons">
              <div className="social-icons-box">
-                  <p className="media-icons"><a href="https://www.facebook.com" target="_blank"><i class='fab fa-facebook'></i>Facebook</a></p>
-                  <p className="media-icons"><a href="https://www.instagram.com/" target="_blank"><i class='fab fa-instagram'></i>Instagram</a></p>
-                  <p className="media-icons"><a href="https://in.pinterest.com/" target="_blank"><i class='fab fa-pinterest'></i>Pinterest</a></p>
-                  <p className="media-icons"><a href="https://twitter.com/?lang=en" target="_blank"><i class='fab fa-twitter'></i>Twitter</a></p>
+                  <p className="media-icons"><a href="https://www.facebook.com" target="_blank"><FaFacebook  className="reacticons"/>Facebook</a></p>
+                  <p className="media-icons"><a href="https://www.instagram.com/" target="_blank"><FaInstagram  className="reacticons"/>Instagram</a></p>
+                  <p className="media-icons"><a href="https://in.pinterest.com/" target="_blank"><FaPinterest  className="reacticons"/>Pinterest</a></p>
+                  <p className="media-icons"><a href="https://twitter.com/?lang=en" target="_blank"><FaTwitter  className="reacticons"/>Twitter</a></p>
               </div>
              </div>
                
